@@ -1,0 +1,60 @@
+body {
+  background: black;
+  margin: 0;
+  display: grid;
+  text-align: center;
+  text-justify: center;
+}
+
+header {
+  opacity: 70%;
+  border-bottom: solid 2px rgb(19, 12, 76);
+  font-family: "Jersey 10", system-ui;
+  padding: 4px;
+  margin-left: 2px;
+  font-size: 35px;
+  color: rgb(19, 12, 76);
+}
+
+img{
+  height: 360px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 25%;
+}
+
+video{
+  height: 360px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 25%;
+}
+
+p{
+  color: white;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 0x 200px 0 200px;
+  position: relative;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  color: lightcyan;
+  font-size: 40px;
+  justify-content: center;
+  font-family: "Jersey 10", system-ui;
+}
+
+.passo {
+  display: none;
+}
+
+.passo.ativo {
+  display: block;
+}
